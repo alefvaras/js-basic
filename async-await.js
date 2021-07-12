@@ -70,7 +70,7 @@ const getInfoUsuario = async (id) => {
     return `Empleado: ${empleado} tiene un Salario de: ${salario}`;
 
  } catch (error) {
-     return error;
+     throw error;
  }
 
 }
